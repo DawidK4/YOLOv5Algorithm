@@ -1,0 +1,14 @@
+# Ścieżka do katalogu głównego danych (najlepiej ścieżka do folderu WMA5)
+path: /content/drive/MyDrive/WMA5
+
+# Ścieżka do zdjęć treningowych (względem 'path')
+train: images/all
+
+# Ścieżka do zdjęć walidacyjnych (możesz wskazać ten sam folder, jeśli nie masz oddzielnego zbioru walidacyjnego)
+val: images/all
+
+# Liczba klas (zmień na rzeczywistą liczbę swoich kategorii)
+nc: Twoja_liczba_kategorii
+
+# Nazwy klas w kolejności, w jakiej były numerowane podczas adnotacji
+names: ['car', 'plane', 'Toronto Tower', 'Empire State Building'] # Wymień nazwy swoich kategorii
